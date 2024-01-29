@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import profileImage from "../assets/profile.jpg"
 export default function Card(){
     return (
         <div className="card">
             <div className="container-image">
-                <img src="/src/assets/profile.jpg" alt="profile-image"/>
+                <img src={profileImage} alt="profile-image"/>
             </div>
             <h1>Wilbert Mojica C.</h1>
             <h3>FullStack Developer</h3>
